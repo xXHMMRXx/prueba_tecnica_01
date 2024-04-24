@@ -1,0 +1,17 @@
+tr {
+    transition: 0.3s;
+}
+
+.custom-hover:hover {
+    cursor: pointer;
+    background-color: rgba(204, 204, 204, 0.212);
+}
+
+.filter-container {
+    width: 25%;
+    margin-bottom: 5px;
+}
+
+.filter {
+    width: 100%;
+}

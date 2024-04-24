@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="table-container">
+    <div class="title">
+      <h1>Lista de Usuarios</h1>
+    </div>
+    <app-table
+      [displayedColumns]="displayedColumns"
+      [dataSource]="dataSource"
+      [configTable]="configTable"
+      (selectedRow)="rowEvent($event)"
+    ></app-table>
+  </div>
+</div>

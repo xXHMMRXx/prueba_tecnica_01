@@ -1,0 +1,29 @@
+@if(cardConfig){
+<div class="card-container">
+  <div class="card-title">{{ cardConfig.name }}</div>
+  <div class="card-row">
+    <span class="black">Nombre de usuario:</span>
+    <span class="ligth"> {{ cardConfig.username }} </span>
+  </div>
+  <div class="card-row">
+    <span class="black">Correo Electronico:</span>
+    <span class="ligth"> {{ cardConfig.email }} </span>
+  </div>
+  <div class="card-row">
+    <span class="black">Direccion:</span>
+    <span class="ligth"> {{ cardConfig.customAddress }} </span>
+  </div>
+  <div class="card-row">
+    <span class="black">Telefono:</span>
+    <span class="ligth"> {{ cardConfig.phone }} </span>
+  </div>
+  <div class="card-row">
+    <span class="black">Sitio web:</span>
+    <span class="ligth"> {{ cardConfig.website }} </span>
+  </div>
+  <div class="card-row">
+    <span class="black">Compania:</span>
+    <span class="ligth"> {{ cardConfig.company?.name }} </span>
+  </div>
+</div>
+}
